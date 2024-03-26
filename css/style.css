@@ -16,6 +16,9 @@ html {
 * {
   box-sizing: inherit;
 }
+.title {
+  max-width: 100%;
+}
 .title1 {
   margin-top: 35px;
   display: flex;
@@ -36,6 +39,7 @@ html {
 }
 .website3 {
   font-size: 20px;
+  font-weight: 600;
 }
 .shapka2 {
   display: flex;
@@ -50,6 +54,7 @@ html {
 .phone_three {
   color: #607ce6;
   font-size: 20px;
+  font-weight: 600;
 }
 .hr {
   margin-top: 32px;
@@ -70,4 +75,225 @@ html {
 }
 .menu2 {
   margin-left: 72px;
+}
+
+.info1 {
+  display: flex;
+}
+/* ОСНОВНАЯ ЧАСТЬ */
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  margin-top: 80px;
+  width: 580px;
+}
+.zagolovok1 {
+  margin-top: 106px;
+  margin-left: 20px;
+}
+.photo_zavod {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+}
+.info2 {
+  display: grid;
+  width: 100%;
+  margin-top: 80px;
+  gap: 20px;
+  grid-template-columns: repeat(2, 580px);
+  grid-template-areas:
+    "HEADER  ."
+    "MAIN1   MAIN2"
+    "MAIN3   ."
+    "END1    END2";
+}
+.info2_zagolovok {
+  grid-area: HEADER;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.info2_main1 {
+  grid-area: MAIN1;
+  font-weight: 400;
+}
+.info2_main2 {
+  grid-area: MAIN2;
+  font-weight: 400;
+}
+
+.info2_main3 {
+  grid-area: MAIN3;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.info2_end1 {
+  grid-area: END1;
+  width: 100%;
+  margin-top: 32px;
+}
+.info2_end2 {
+  grid-area: END2;
+  width: 100%;
+  margin-top: 32px;
+}
+/* PRODUCTS */
+.products {
+  margin-top: 80px;
+}
+.prod_head {
+  margin-bottom: 32px;
+}
+.pr img {
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-right: 156px;
+}
+.text_pr1,
+.text_pr2,
+.text_pr3 {
+  margin-left: 24px;
+  gap: 12px;
+  position: absolute;
+  top: 333px;
+}
+.text_pr4,
+.text_pr5,
+.text_pr6 {
+  margin-left: 24px;
+  gap: 12px;
+  position: absolute;
+  bottom: 32px;
+}
+.pr a {
+  font-size: 16px;
+}
+.pr p {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.prod_head {
+  font-size: 48px;
+  font-weight: 700;
+}
+.prod_block {
+  font-size: 28px;
+  display: grid;
+  gap: 20px;
+  position: relative;
+  grid-template-rows: repeat(2, 435px);
+  grid-template-columns: repeat(3, 380px);
+  grid-template-areas:
+    "prod1 prod2 prod3"
+    "prod4 prod5 prod6";
+}
+
+.prod1 {
+  background-color: #f5f5f5;
+  grid-area: prod1;
+}
+.prod2 {
+  background-color: #f5f5f5;
+  grid-area: prod2;
+}
+.prod3 {
+  background-color: #f5f5f5;
+  grid-area: prod3;
+}
+.prod4 {
+  margin-top: 25px;
+  background-color: #f5f5f5;
+  grid-area: prod4;
+}
+.prod5 {
+  margin-top: 25px;
+  background-color: #f5f5f5;
+  grid-area: prod5;
+}
+.prod6 {
+  margin-top: 25px;
+  background-color: #f5f5f5;
+  grid-area: prod6;
+}
+.pr1 {
+  width: 200px;
+  height: 194px;
+}
+.pr2 {
+  width: 200px;
+  height: 112px;
+}
+.pr3 {
+  width: 200px;
+  height: 158px;
+}
+.pr4 {
+  width: 200px;
+  height: 149px;
+}
+.pr5 {
+  width: 200px;
+  height: 141px;
+}
+.pr6 {
+  width: 200px;
+  height: 138px;
+}
+/* MAPS */
+.map {
+  margin-top: 80px;
+}
+.map1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+/* NEWS */
+.news {
+  width: 100%;
+}
+.news_head {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+.news_osnova {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-top: 32px;
+}
+.news_osnova img {
+  max-width: 100%;
+}
+.news_osnova p {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.news1 {
+  background-color: #f5f5f5;
+}
+.news2 {
+  background-color: #f5f5f5;
+}
+.news3 {
+  background-color: #f5f5f5;
+}
+.data1,
+.data2,
+.data3 {
+  font-size: 16px;
+  text-align: end;
+  display: inline-block;
+}
+.text1,
+.text2,
+.text3 {
+  text-align: start;
+  display: inline-block;
 }
