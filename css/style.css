@@ -254,7 +254,7 @@ h1 {
 }
 /* NEWS */
 .news {
-  width: 100%;
+  max-width: 100%;
 }
 .news_head {
   font-size: 48px;
@@ -270,30 +270,51 @@ h1 {
 .news_osnova img {
   max-width: 100%;
 }
-.news_osnova p {
+
+.news1 {
+  background-color: #f5f5f5;
+  height: 478px;
+  max-width: 380px;
+}
+.news2 {
+  background-color: #f5f5f5;
+  height: 478px;
+  max-width: 380px;
+}
+.news3 {
+  background-color: #f5f5f5;
+  height: 478px;
+  max-width: 380px;
+}
+.lower_str {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.text_str {
+  font-size: 20px;
+  /* margin-top: 16px; */
+  line-height: 28px;
   margin-top: 16px;
   margin-left: 16px;
   margin-right: 16px;
 }
-.news1 {
-  background-color: #f5f5f5;
+/* .text_str2 {
+  font-size: 20px;
 }
-.news2 {
-  background-color: #f5f5f5;
-}
-.news3 {
-  background-color: #f5f5f5;
-}
+.text_str3 {
+  font-size: 20px;
+} */
 .data1,
 .data2,
 .data3 {
   font-size: 16px;
-  text-align: end;
-  display: inline-block;
 }
 .text1,
 .text2,
 .text3 {
-  text-align: start;
-  display: inline-block;
+  font-size: 16px;
+  display: flex;
 }
